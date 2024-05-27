@@ -6,3 +6,6 @@ type vendor_persist_goodix_file, file_type;
 
 # Wireless
 type vendor_sysfs_wireless, fs_type, sysfs_type;
+
+# Camera
+type sysfs_torch, sysfs_type, fs_type;
