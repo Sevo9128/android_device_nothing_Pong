@@ -110,16 +110,6 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,camera,package_name,com.nothing.camera)
 
-# Charging
-PRODUCT_PACKAGES += \
-    nt-charging-control \
-    nt-charging-control_recovery
-
-# Configstore
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
-
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
