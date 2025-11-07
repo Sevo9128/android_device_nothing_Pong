@@ -110,6 +110,10 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,camera,package_name,com.nothing.camera)
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib_shim_ntcamera
+
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
