@@ -260,7 +260,8 @@ PRODUCT_BOOT_JARS += \
 
 # NT-glyph
 PRODUCT_PACKAGES += \
-    PongGlyph
+    ParanoidGlyphPhone2 \
+    GlyphAdapter
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
