@@ -459,3 +459,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/nothing/Pong/Pong-vendor.mk)
+
+# ROM Signing support
+-include vendor/lineage-priv/keys/keys.mk
